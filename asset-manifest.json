@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vegan-easy-v.2/static/css/main.1c2b8f17.chunk.css",
+    "main.js": "/vegan-easy-v.2/static/js/main.bb790ed8.chunk.js",
+    "main.js.map": "/vegan-easy-v.2/static/js/main.bb790ed8.chunk.js.map",
+    "runtime-main.js": "/vegan-easy-v.2/static/js/runtime-main.26b2adbf.js",
+    "runtime-main.js.map": "/vegan-easy-v.2/static/js/runtime-main.26b2adbf.js.map",
+    "static/js/2.2241fcb1.chunk.js": "/vegan-easy-v.2/static/js/2.2241fcb1.chunk.js",
+    "static/js/2.2241fcb1.chunk.js.map": "/vegan-easy-v.2/static/js/2.2241fcb1.chunk.js.map",
+    "index.html": "/vegan-easy-v.2/index.html",
+    "precache-manifest.ee313735728eab3694b5cc7276a5c867.js": "/vegan-easy-v.2/precache-manifest.ee313735728eab3694b5cc7276a5c867.js",
+    "service-worker.js": "/vegan-easy-v.2/service-worker.js",
+    "static/css/main.1c2b8f17.chunk.css.map": "/vegan-easy-v.2/static/css/main.1c2b8f17.chunk.css.map",
+    "static/js/2.2241fcb1.chunk.js.LICENSE.txt": "/vegan-easy-v.2/static/js/2.2241fcb1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26b2adbf.js",
+    "static/js/2.2241fcb1.chunk.js",
+    "static/css/main.1c2b8f17.chunk.css",
+    "static/js/main.bb790ed8.chunk.js"
+  ]
+}
