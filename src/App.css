@@ -1,38 +1,154 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Permanent+Marker&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.mailto {
+  position: fixed;
+  text-decoration: none;
+  transform: rotate(-90deg);
+  right: -75px;
+  bottom: 110px;
+  z-index: 10;
+  color: #6b6e70;
+}
+
+.mailto:hover {
+  color: #86c232;
+  transition: 0.3s ease-in-out;
+}
+
+.header {
+  float: left;
+  padding: 40px;
+  position: fixed;
+  height: 100%;
+}
+
+.title {
+  color: #273746;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Merriweather', serif;
+}
+
+.search-form {
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fa {
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-button {
+  padding: 12px;
+  border-radius: 100px;
+  background: #273746;
+  border: none;
+  margin-left: 6px;
+  box-shadow: -5px 6px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-bar{
+  padding: 12px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 10px -5px 10px 0 rgba(255, 255, 255, 1),
+              -10px 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-filter {
+}
+
+.filter {
+  border-radius: 3px;
+  color: #273746;
+  background: #F4F6F7;
+  margin-left: -30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 6px;
+  text-align: center;
+  list-style: none;
+  box-shadow: 10px -5px 10px 0 rgba(255, 255, 255, 1),
+              -10px 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.filter:hover {
+  color: #273746;
+  background: #85929E;
+}
+
+.image {
+  border-radius: 200px;
+}
+
+.recipe_title {
+  white-space: wrap;
+  max-width: 1000px;
+  font-size: 30px;
+  text-align: left;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.recipe {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 40px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  box-shadow: 10px -10px 10px 0 rgba(255, 255, 255, 1),
+              -10px 10px 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+.recipes {
+  padding-left: 25%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #F4F6F7;
+}
+
+.side {
+  padding-left: 20px;
+  margin-top: -23px;
+}
+
+.ingredients-title {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.ingredients {
+  text-align: left;
+  white-space: normal;
+  max-width: 350px;
+}
+
+
+.url {
+  color: #85929E;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: #273746;
+  padding: 10px;
+}
+
+.url:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.split {
+  display: flex;
+  padding-left: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.end {
+  align-self: center;
+  padding-left: 420px;
+  margin-top: -40px;
+  position: absolute;
 }
